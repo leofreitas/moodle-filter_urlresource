@@ -391,7 +391,7 @@ class filter_url_resource_helper {
         }
 
         $urlreplace = new stdClass();
-        $urlreplace->courseid = $data->id;
+        $urlreplace->courseid = $data->courseid;
         $urlreplace->cmid = $cmid;
         $url = new moodle_url('/mod/url/view.php', array('id' => $cmid));
         $urlreplace->url = $url->out();
