@@ -29,3 +29,5 @@ $plugin->component = 'filter_urlresource'; // Full name of the plugin (used for 
 $plugin->dependencies = array(
     'local_filterurlresbak' => 2015030100
 );
+$plugin->maturity = MATURITY_STABLE;
+$plugin->release = '2.8';
